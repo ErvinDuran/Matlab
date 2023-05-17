@@ -1,7 +1,7 @@
 \documentclass{scrartcl}
 
-\usepackage{amsmath}
-\usepackage{array}
+\include{style.tex}
+
 \title{Cuadernillo de Ejercicios}
 \author{Ing. Ervin Adrian Duran Aguilar}
 \date{}
@@ -54,6 +54,20 @@
 		\item Volumen y Área de una Esfera.	
 		
 		\item Dado un numero de 4 dígitos halle la suma de dígitos en la posición par y el producto de los dígitos en la posición impar. Par ello realice el conteo de izquierda a derecha de los dígitos.
+		
+		\begin{table}
+			\centering
+			\begin{tblr}{
+				hlines,vlines
+			}
+				$1^{\circ} $& $2^{\circ}$  & $3^{\circ}$  & $4^{\circ}$  \\
+				8 & 4 & 7 & 5 \\
+			\end{tblr}
+		\end{table}
+	
+		Suma = 17
+		Producto = 20
+		
 		\item Un comerciante desea saber cual es el precio al que debe que debe promocionar sus productos los cuales venderá con factura. Para ello tiene el precio al que adquiere cada producto y al que debe adicionar el 16\% para hallar el precio de venta.
         
         \item Las poblaciones tienden a expandirse exponencialmente. Esto es 
@@ -89,7 +103,31 @@
 		
 		\item Realizar el análisis, diagrama de flujo y prueba de escritorio, para calcular y visualizar el área y el volumen de la siguiente figura:
 		
+			\begin{minipage}{0.4\textwidth}
+				%\begin{figure}[ht]
+					\centering
+					\includegraphics[scale=0.3]{img/cilindro.png}
+				%\end{figure}
+			\end{minipage}
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				$A=2 \pi r(h+r)$
+				$$V=\pi r^{2} h$$
+			\end{minipage}
+		
 		\item Diseñar un programa para calcular el volumen de la siguiente figura y visualizar el resultado. Formulas generales:
+		
+			\begin{minipage}{0.4\textwidth}
+				%\begin{figure}[ht]
+				\centering
+				\includegraphics[scale=0.3]{img/cono.png}
+				%\end{figure}
+			\end{minipage}
+			\begin{minipage}{0.5\textwidth}
+				\centering
+				$A_{total}= \pi r^{2} + \pi r g$
+				$$V=\frac{\pi r^{2} h}{3}$$
+			\end{minipage}
 		
 		\item Realizar un programa para introducir un número entero de 5 dígitos por teclado, realizar el proceso para invertirlo.
 		
@@ -97,9 +135,13 @@
 		
 		\item Hacer leer un numero A, evaluar sucesivamente las expresiones siguientes y desplegar los resultados obtenidos:
 		
-		a. B=A-200
-		b. C=4*B+B-A
-		c. D=A-B+C/4
+		\begin{itemize}
+			\item [a)] $B=A-200$
+			\item [b)] $C=4\cdot B+B-A$
+			\item [c)] $D=A-B+C/4$
+		\end{itemize}
+		
+
 		
 		
 		\item Hacer leer S en segundos, convertir a minutos y horas. Desplegar los resultados.
@@ -120,14 +162,21 @@
 		
 		\item Escribir un programa para convertir una medida dada en pies a sus equivalentes en:
 		
-		a. Yardas
-		b. Pulgadas
-		c. Centímetros
-		d. Metros
-		
+			\begin{enumerate}
+				\item Yardas
+				\item Pulgadas
+				\item Centímetros
+				\item Metros
+			\end{enumerate}
+
 		\item Tres personas deciden invertir su dinero para fundar una empresa. Cada una de ellas invierte una cantidad distinta. Obtener el porcentaje que cada quien invierte con respecto a la cantidad total invertida.
 		
 		\item Escribir un programa para calcular y visualizar el área de la siguiente figura, considerar que el circulo que se encuentra en medio es un hueco en medio del triángulo que es de tipo rectángulo.
+		
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.3,angle=-45]{img/triangulo.png}
+		\end{figure}
 		
 		\item Escribir un programa que permita calcular el precio de venta de un producto considerando que debe incrementar el 20\% del costo de proveedor y 5 porciento por costos de distribución. 
 		
@@ -137,7 +186,8 @@
 		
 		\item Una empresa constructora vende terrenos con la forma de la figura. Obtener el área
 		respectiva de un terreno de medidas de cualquier valor.
-		20.Se requiere obtener la distancia entre dos puntos en el plano cartesiano, tal y como se muestra en la figura. Obtener la distancia entre esos puntos.
+		
+		\item Se requiere obtener la distancia entre dos puntos en el plano cartesiano, tal y como se muestra en la figura. Obtener la distancia entre esos puntos.
 		
 		\item Epsas requiere determinar el pago que debe realizar una persona por el total de metros cúbicos que consume de agua al llenar una alberca (ver figura). Determinar ese pago.
 
@@ -311,6 +361,151 @@
 		\item Hacer un programa que calcule la suma de los cuadrados de los 100 primeros números.
 		\item Hacer un programa que calcule la media de números.
 		\item Hacer un programa que calcule la media de X números, se dejarán de solicitar números hasta que se introduzca el cero.
+		
+		\item Escribir un programa que imprima todos los números pares entre dos números que		se le pidan al usuario.
+		
+		\item Realizar un algoritmo que muestre la tabla de multiplicar hasta el 10, de un número		introducido por teclado.
+		
+		\item Leer un número y verificar si es un número perfecto.
+		
+		\item Una empresa les paga a sus empleados con base en las horas trabajadas en la semana. Realice un algoritmo para determinar el sueldo semanal de N trabajadores y, además, calcule cuánto pagó la empresa por los N empleados.
+		
+		\item Escribe un programa que, dados dos números, uno real (base) y un entero positivo (exponente), saque por pantalla el resultado de la potencia. No se puede utilizar el operador de potencia.
+		
+		\item Escribe un programa que diga si un número introducido por teclado es o no primo. Un número primo es aquel que sólo es divisible entre él mismo y la unidad.
+		
+		Nota: Es suficiente probar hasta la raíz cuadrada del número para ver si es	divisible por algún otro número.
+		
+		\item La compañía de luz DELAPAZ requiere determinar el pago que deben realizar los	N consumidores por el uso de energía eléctrica, la cual se mide en kilowatts por hora (KWH) y el costo por el consumo de KWH es de Bs. 0.73. Además, se debe considerar el pago por el alumbrado público y por el aseo urbano los cuales son Bs. 8.22 y 8.80, respectivamente. Imprimir el total que debe pagar cada consumidor y el monto total de las N transacciones.
+		
+		\item La ecuación canónica de una circunferencia centrada en el punto $(h, k)$ de coordenadas tiene la forma: $(x-h)^2 + (y-k)^2 = r^2$ donde r es el radio de dicha circunferencia. Crear un programa para leer N puntos y verificar cuantos de estos	puntos leídos se encuentran dentro de la circunferencia. Imprimir la cantidad y	cuáles son los puntos que se encuentran dentro de la circunferencia.
+		
+		\item Una fábrica produce mensualmente 5000 zapatos, se ha determino que vende en promedio 4730 zapatos. Actualmente tiene un depósito con una capacidad de 30000 de la cual ya esta ocupada un 20\%. En cuantos meses se llenará el depósito. Resolver utilizando la estructura repetitiva while (mientras)
+		
+		\item En una empresa se tiene un almacén de material de escritorio en el cual se han comprado 370 paquetes de hojas carta, los empleados de la empresa, solicitan de manera mensual las siguientes cantidades. RRHH: 3 paquetes, Sistemas: 4 paquetes, Financiera:7 paquetes, Administrativa: 12 paquetes, Gerencias: 3	paquetes. Determinar cuándo se tiene que renovar el inventario de papel carta si	no se debe tener menos de 30 paquetes almacenados.
+		
+		\item El gobierno ha establecido que el incremento del sueldo mínimo nacional deberá ser de 10\%cada año. Realizar un algoritmo que muestre el sueldo mínimo por los siguientes “N” años. El sueldo mínimo actual y N son variables de entrada.	Por ejemplo, si el sueldo mínimo actual es 1000, al terminar el primer año el sueldo será 1100, al terminar el segundo año será de 1210, etc.
+		
+		\item Realice un diagrama de flujo que permita calcular la nota más alta y la mínima un grupo de N estudiantes.
+		
+		\item Realice un diagrama de flujo que pida 7 números y calcula y muestra la suma de todos los primos.
+		
+		Por ejemplo. 1, 3, 4, 6, 11, 100, 9
+		Suma = 1 + 3 + 11 = 15
+		
+		\item Construya un diagrama de flujo que pida N números naturales y mayores a 10 y menores a 100, y calcula y muestra la suma de todos pares.
+		
+		Por ejemplo. N=5 90 20 31 45 11
+		Suma=90+20 = 110
+		
+		\item Lea un lote de números hasta que se introduzca un número negativo o el cero, y muestre la cantidad y suma de números primos y no primos que contenga.
+		
+		\item Lea un lote de números hasta que se introduzca un el cero, y de cada 3 números leídos halle y muestre su promedio.
+		
+		\item Dado un numero K entero mayor a 1000 rotar sus dígitos a la derecha X veces. Mostrar cada rotación
+		
+		Ejemplo: Si K = 3456 y X= 3:
+		Las rotaciones son: 6345, 5634, 4563
+		
+		\item Escribe un programa que le pida al usuario un numero entre el 1 y el 9 - pediremos al usuario dicho número hasta que cumpla la condición- una vez introducido	correctamente el programa debe escribir la tabla de multiplicar de ese número usando un bucle for, después de escribir la tabla le preguntaremos ¿quieres introducir otro número? S/N si pulsa S, volveremos a pedirle otro número si pulsa N saldrá un mensaje dándole las gracias por usar nuestro programa y finalizara la ejecución, las tablas de los números que introduzca tendrán el siguiente formato de	salida: 7X1=7 7X2=14 ............. 7X9=63
+		
+		\item Escribe un programa que lea números enteros positivos hasta que se introduzca un 0. El programa deberá mostrar por pantalla la cantidad de números leídos, el mayor, el menor y la media de los números leídos.
+		
+		\item La conjetura de Ulam afirma que dado un entero y siguiendo los pasos siguientes siempre obtenemos un 1. • Si el número es par se divide por 2. • Si es impar se	multiplica por 3 y se suma 1. Escribe un programa que le pida al usuario un número	entero y que compruebe si la conjetura de Ulam es cierta, el programa deberá	escribir toda la secuencia hasta llegar al uno. Por ejemplo si el usuario introduce un	5 la secuencia sería: 5, 16, 8, 4, 2, 1.
+		
+		\item Dos números a y b se dice que son amigos si la suma de los divisores de a (salvo él mismo) coincide con b y viceversa. Diseña un programa que tenga como entrada dos números naturales y que indique mediante un mensaje si son amigos o no.
+		
+		\item Las empresas estatales han establecido que el incremento del sueldo mínimo nacional deberá ser de 12\% cada año. Realizar un algoritmo que muestre el sueldo mínimo por los siguientes “N” años. El sueldo mínimo actual y N son variables de entrada.	Por ejemplo, si el sueldo mínimo actual es 1000, al terminar el primer año el sueldo será 1120, al terminar el segundo año será de 1254.4, etc, mostrar para los N años.
+		
+		\item Dado un numero de mínimo 5 dígitos hallar la suma de sus dígitos pares y el
+		producto de sus dígitos impares.
+		Ejemplo: 86547
+		Suma: 18
+		Producto: 35
+		\item Escribir un programa que visualice la siguiente salida:
+		1
+		1 2
+		1 2 3
+		1 2 3 4
+		1 2 3
+		1 2
+		1
+		
+		\item Diseñar e implementar un programa que lea un total de R números y cuente el
+		número de sus entradas que son positivos negativos y cero.
+		
+		\item Diseñar e implementar un programa que solicite a su usuario un valor no negativo
+		n y visualice la siguiente salida (n = 6):
+		1 2 3 4 5 6
+		1 2 3 4 5
+		1 2 3 4
+		1 2 3
+		1 2
+		1
+		
+		\subsection{Series}
+		
+		\item Generar la siguiente serie para n términos: 1, 4, 9, 16, 25,36, .
+		\item Generar la siguiente serie para n términos: 1, 0, 2, 2 , 0, 3 , 3, 3, 0, 4, 4, 4, 4
+		\item Generar la siguiente serie para n términos: 1, 5, 11, 19, 29, 41, 55,71, 89, 109, ..
+		\item Generar la siguiente serie para n términos:
+		2, 4, 6, 0, 0, 0, 8, 10, 12, 0, 0, 0, 14, 16, 18, 0, 0, 0, 20, ….
+		\item Generar la siguiente serie para n términos: 1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6, .
+		\item Generar la siguiente serie para n términos: 1,0,1,1,0,0,1,1,1,0,0,0, ….
+		\item Generar la siguiente serie para n términos: 0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,1,1, .
+		\item Generar la siguiente serie para n términos: 1,0,2,0,0,3,0,0,0,4,0,0,0,0, …
+		\item Generar la siguiente serie para n términos:
+		2,1,1, 4, 2, 2, 2, 2, 6, 3, 3, 3, 3,3, 3, 8, …
+		\item Generar la siguiente serie para n términos 2,0,0,3,0,0,0,5,0,0,0,0,0,7,0,0,0,0,0,0,0,..
+		\item Generar: 9, 9, 8, 8, 7, 7, 6, 6, 5, 5, 4, 4, 3, 3, 2, 2, 1, 1, 9, 9, 8, 8, 7, 7, …
+		\item Generar la serie de los N números primos: 2, 3, 5, 7, 11, 13, 17, 19, 23, …
+		\item Generar la siguiente secuencia de números para N términos.
+		1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5 …
+		Ejemplo: N = 7
+		Salida 1, 1, 2, 1, 2, 3, 1
+		\item Generar la siguiente secuencia de números para N términos utilizando solo operador de sumas.
+		1, 4, 9, 16, 25, 36 …
+		Ejemplo: Entrada
+		N = 4
+		Salida 1, 4, 9, 16
+		\item Generar la secuencia de números denominado Fibonacci para N términos.
+		Ejemplo: Entrada
+		N = 5
+		Salida 0, 1, 1, 2, 3
+		\item Dado un número mayor a tres dígitos, determinar la cantidad de dígitos impares que contiene.
+		Ejemplo: Entrada
+		NUM = 44763
+		Salida:
+		tiene 2 dígitos impares
+		
+		\subsection{Sumatorias}
+		
+		\item Calcular la siguiente sumatoria para N
+		términos: $S=1! +2! +3! +4! +5! +\cdots$
+		\item Calcular la siguiente sumatoria para N
+		términos: $S=(x+0)+(x+1)+(x+1)+(x+2)+\cdots$
+		\item Generar la siguiente serie para n términos:
+		$S=2+1+1+ 4+ 2+ 2+ 2+ 2+ 6+3+3+3+3+3+3+8+\cdots$
+		\item $S=\frac{X^{0}}{2!}+\frac{X^{1}}{4!}+\frac{X^{1}}{6!}+\frac{X^{2}}{8!}+\frac{X^{3}}{10!}+\frac{X^{5}}{12!}+\cdots$
+		\item $S=\frac{2^{0!}}{x^{1!}}+\frac{3^{1!}}{x^{2!}}+\frac{5^{1!}}{x^{2!}}+\frac{7^{2!}}{x^{3!}}+\frac{11^{3!}}{x^{3!}}+\frac{13^{5!}}{x^{3!}}+\frac{17^{8!}}{x^{4!}}$
+		\item Calcular la sumatoria para N términos.
+		
+		$$\frac{1^2}{1*3}+\frac{2^2}{3*5}+\frac{3^2}{5*7}+\cdots+\frac{n^2}{(2n-1)(2n+1)}=\frac{n(n+1)}{2(2n+1)}$$
+		
+		\subsection{Descomposición de Dígitos}
+		
+		\item Escribir un programa para mostrar la cantidad y suma de los dígitos múltiplos de 7.
+		\item Escribir un programa para leer un número mayor a 10 e intercambiar el primer y último dígito.
+		\item Dado un número x hallar el dígito mayor.
+		\item Hallar la suma de los dígitos primos de un número x.
+		\item Leer un dato X entero positivo e invertir sus dígitos.
+		\item Leer un dato X entero positivo y determinar si es capicúa o no. Un número es capicúa si el invertido resulta el mismo.
+		\item Escribir un programa para leer un número mayor a 100 y eliminar sus dígitos impares.
+		\item Dado un número entero X ordenar sus dígitos en forma ascendente
+		\item Dado un número X verificar si tiene todos los dígitos distintos
+		\item Una compañía desea transmitir datos por teléfono, pero están preocupados de que sus teléfonos sean intervenidos. Todos sus datos se transmiten como enteros de cuatro dígitos. Se le ha pedido escribir un programa que cifre los datos para poderlos transmitir con mayor seguridad. El programa deberá leer un entero de 4 dígitos	introducidos por el usuario y cifrado como sigue: sustituya cada digito por (el mismo digito + 7)\% 10. Luego intercambie el primer y tercer digito, luego el segundo y el cuarto digito e imprima el número cifrado.
+		
+		\item Dado un X > 100, generar dos números, uno con los dígitos pares y el otro con los dígitos impares. Ej. X=37845942, los nuevos números serán: 3759 y 8442.
 	\end{enumerate}
 
 	\section{Funciones}

@@ -55,7 +55,7 @@
 		
 		\item Dado un numero de 4 dígitos halle la suma de dígitos en la posición par y el producto de los dígitos en la posición impar. Par ello realice el conteo de izquierda a derecha de los dígitos.
 		
-		\begin{table}
+		\begin{table}[ht]
 			\centering
 			\begin{tblr}{
 				hlines,vlines
@@ -67,39 +67,6 @@
 	
 		Suma = 17
 		Producto = 20
-		
-		\item Un comerciante desea saber cual es el precio al que debe que debe promocionar sus productos los cuales venderá con factura. Para ello tiene el precio al que adquiere cada producto y al que debe adicionar el 16\% para hallar el precio de venta.
-        
-        \item Las poblaciones tienden a expandirse exponencialmente. Esto es 
-        \begin{equation*}
-        	P = P_{0}e^{rt}
-        \end{equation*}
-        
-        donde:
-		\begin{eqnarray*}
-			P		   &=&	\mbox{población actual} \\
-			P_{o}  &=& \mbox{Población original} \\
-			r 			& = & \mbox{Tarifa de crecimiento continua, expresado como fracción}\\
-			t 			& = & \mbox{tiempo}
-		\end{eqnarray*}
-		
-		Si originalmente se tienen 100 conejos que se reproducen a una tasa de crecimiento constante de 90\% (r = 0.9) por año, encuentre cuántos conejos tendrá al final de 10 años.
-		
-		\item Las tasas de reacción química son proporcionales a una constante de tasa $k$ que cambia con la temperatura de acuerdo con la ecuación Arrhenius
-		
-		\begin{equation*}
-			k = k_{0} e^{-\frac{Q}{RT}}
-		\end{equation*}
-	
-		Para cierta reacción
-		
-		\begin{eqnarray*}
-			Q  &=&	800\;cal/mol \\
-			R  &=&  1.987\;cal/mol\;K \\
-			k_{0} &=& 1200\;min^{-1} \\
-		\end{eqnarray*}
-	
-		Encuentre los valores de $k$ para temperaturas desde $100\;K$ hasta $500\;K$, en incrementos de $50\;grados$. Cree una tabla con sus resultados.
 		
 		\item Realizar el análisis, diagrama de flujo y prueba de escritorio, para calcular y visualizar el área y el volumen de la siguiente figura:
 		
@@ -175,24 +142,66 @@
 		
 		\begin{figure}[ht]
 			\centering
-			\includegraphics[scale=0.3,angle=-45]{img/triangulo.png}
+			\includegraphics[scale=0.5,angle=-45]{img/triangulo.png}
 		\end{figure}
 		
 		\item Escribir un programa que permita calcular el precio de venta de un producto considerando que debe incrementar el 20\% del costo de proveedor y 5 porciento por costos de distribución. 
 		
-		Por ejemplo:
-		Costo de proveedor = 50
+		Por ejemplo:\\
+		Costo de proveedor = 50\\
 		Precio de venta es = 50 + 10+ 2,5 = 62,5
 		
 		\item Una empresa constructora vende terrenos con la forma de la figura. Obtener el área
 		respectiva de un terreno de medidas de cualquier valor.
 		
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.4]{img/1.png}
+		\end{figure}
+		
 		\item Se requiere obtener la distancia entre dos puntos en el plano cartesiano, tal y como se muestra en la figura. Obtener la distancia entre esos puntos.
 		
-		\item Epsas requiere determinar el pago que debe realizar una persona por el total de metros cúbicos que consume de agua al llenar una alberca (ver figura). Determinar ese pago.
-
-	\end{enumerate}
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.4]{img/2.png}
+		\end{figure}
 		
+		\item Epsas requiere determinar el pago que debe realizar una persona por el total de metros cúbicos que consume de agua al llenar una alberca (ver figura). Determinar ese pago.
+	
+		\item Un comerciante desea saber cual es el precio al que debe que debe promocionar sus productos los cuales venderá con factura. Para ello tiene el precio al que adquiere cada producto y al que debe adicionar el 16\% para hallar el precio de venta.
+		
+		\item Las poblaciones tienden a expandirse exponencialmente. Esto es 
+		\begin{equation*}
+			P = P_{0}e^{rt}
+		\end{equation*}
+		
+		donde:
+		\begin{eqnarray*}
+			P		   &=&	\mbox{población actual} \\
+			P_{o}  &=& \mbox{Población original} \\
+			r 			& = & \mbox{Tarifa de crecimiento continua, expresado como fracción}\\
+			t 			& = & \mbox{tiempo}
+		\end{eqnarray*}
+		
+		Si originalmente se tienen 100 conejos que se reproducen a una tasa de crecimiento constante de 90\% (r = 0.9) por año, encuentre cuántos conejos tendrá al final de 10 años.
+		
+		\item Las tasas de reacción química son proporcionales a una constante de tasa $k$ que cambia con la temperatura de acuerdo con la ecuación Arrhenius
+		
+		\begin{equation*}
+			k = k_{0} e^{-\frac{Q}{RT}}
+		\end{equation*}
+		
+		Para cierta reacción
+		
+		\begin{eqnarray*}
+			Q  &=&	800\;cal/mol \\
+			R  &=&  1.987\;cal/mol\;K \\
+			k_{0} &=& 1200\;min^{-1} \\
+		\end{eqnarray*}
+		
+		Encuentre los valores de $k$ para temperaturas desde $100\;K$ hasta $500\;K$, en incrementos de $50\;grados$. Cree una tabla con sus resultados.
+	\end{enumerate}
+
 	\section{Estructuras Condicionales}
 		
 	\begin{enumerate}
@@ -272,25 +281,42 @@
 		
 		\item Escribir un programa que permita diagnosticar los resultados de una prueba de COVID. Los resultados obtenidos son valores numéricos para los anticuerpos IgM e IgG que, según los rangos de referencia se interpretan cómo positivos o negativos para cada uno de los dos anticuerpos. Para el programa considere la siguiente tabla:
 		
-		Valor de IgM y IgC
-		Resultado del programa
-		Resultado > 1.1
-		Este es un resultado positivo. Cualquier valor por
-		encima de este número debe interpretarse como
-		positivo. Tenga en cuenta que valores mayores
-		no significan mayor inmunidad ni mayor o menor
-		tiempo de infección. Los resultados deben ser
-		interpretados en conjunto con su médico.
-		Resultado < 0.9:
-		Resultado entre 0.9 y
-		1.1
-		Este es un resultado negativo. Cualquier valor
-		por debajo de este número debe interpretarse
-		como negativo.
-		Es indeterminado. El resultado no es claro. Le
-		recomendamos repetir el examen en 5 o 7 días.
-		
+		\begin{table}[ht]
+			\centering
+			\begin{tblr}{X[2,c]X[4,l]}
+					\hline
+					Valor de IgM y IgC & Resultado del programa \\
+					Resultado > 1.1  &  
+					\hline
+					Este es un resultado positivo. Cualquier valor por encima de este número debe interpretarse como positivo. Tenga en cuenta que valores mayores no significan mayor inmunidad ni mayor o menor tiempo de infección. Los resultados deben ser interpretados en conjunto con su médico. \\
+					\hline
+					Resultado < 0.9:  &
+				
+					Este es un resultado negativo. Cualquier valor
+					por debajo de este número debe interpretarse
+					como negativo. \\
+					\hline
+					Resultado entre 0.9 y 1.1 &
+					Es indeterminado. El resultado no es claro. Le
+					recomendamos repetir el examen en 5 o 7 días. \\
+					\hline
+			\end{tblr}
+		\end{table}
+	
 		\item Escribir un programa que permita diagnosticar a un paciente que evalué su presión arterial según la siguiente tabla, considere que debe ingresar la medición sistólica y diastólica.
+		
+			\begin{table}[ht]
+			\centering
+			\begin{tblr}{hlines,vlines}
+					Diagnóstico & Sistólica & Diastólica \\
+					Óptima & <120 & <80 \\
+					Normal & 120-129 & 80-84\\
+					Normal-Alta & 130-139 & 85-89\\
+					Hipertensión  leve 1 & 140-159 & 90-99 \\
+					Hipertensión Moderada & 160-179 & 100-109 \\
+					Hipertención severa & $\ge$ 180& $\ge$ 110 \\
+			\end{tblr}
+		\end{table}
 		
 		\item Realice un algoritmo para determinar el sueldo semanal de un trabajador con base en las horas trabajadas y el pago por hora, considerando que después de las 40 horas cada hora se considera como excedente y se paga el doble.
 		

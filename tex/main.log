@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (MiKTeX 23.1) (format=lualatex 2023.4.3)  17 MAY 2023 12:12
+This is LuaHBTeX, Version 1.16.0 (MiKTeX 23.1) (format=lualatex 2023.4.3)  19 MAY 2023 17:03
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -173,6 +173,14 @@ LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 3.
 
 (./style.tex
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 6.
+
+(C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrsize12pt
+.clo
+File: scrsize12pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (12pt
+)
+)
 (C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
@@ -456,12 +464,12 @@ Package scrbase Info: activating english \indexname on input line 9.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.2698pt, 452.96832pt, 72.2698pt)
-* v-part:(T,H,B)=(72.2698pt, 700.50732pt, 72.2698pt)
-* \paperwidth=597.50793pt
-* \paperheight=845.04694pt
-* \textwidth=452.96832pt
-* \textheight=700.50732pt
+* h-part:(L,W,R)=(72.2698pt, 469.75539pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 650.43037pt, 72.2698pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75539pt
+* \textheight=650.43037pt
 * \oddsidemargin=-0.00018pt
 * \evensidemargin=-0.00018pt
 * \topmargin=-45.45293pt
@@ -472,7 +480,7 @@ Package scrbase Info: activating english \indexname on input line 9.
 * \marginparwidth=59.7508pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -516,7 +524,10 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 (C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
 e.sty
 Package: xparse 2023-01-16 L3 Experimental document command parser
-))
+)) [1
+
+
+{C:/Users/ervin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -525,56 +536,81 @@ Package: xparse 2023-01-16 L3 Experimental document command parser
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [1
-
-
-{C:/Users/ervin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 <img/cilindro.png, id=8, 188.20313pt x 278.54062pt>
 File: img/cilindro.png Graphic file (type png)
 <use img/cilindro.png>
-Package luatex.def Info: img/cilindro.png  used on input line 109.
+Package luatex.def Info: img/cilindro.png  used on input line 76.
 (luatex.def)             Requested size: 56.46136pt x 83.56282pt.
 <img/cono.png, id=9, 195.73125pt x 251.43938pt>
 File: img/cono.png Graphic file (type png)
 <use img/cono.png>
-Package luatex.def Info: img/cono.png  used on input line 123.
+Package luatex.def Info: img/cono.png  used on input line 90.
 (luatex.def)             Requested size: 58.71982pt x 75.43239pt.
 
-[2<./img/cilindro.png>] [3<./img/cono.png>]
-<img/triangulo.png, id=25, 253.69781pt x 146.04562pt>
+[2<./img/cilindro.png><./img/cono.png>] [3]
+<img/triangulo.png, id=24, 253.69781pt x 146.04562pt>
 File: img/triangulo.png Graphic file (type png)
 <use img/triangulo.png>
-Package luatex.def Info: img/triangulo.png  used on input line 178.
-(luatex.def)             Requested size: 76.10992pt x 43.81401pt.
- [4<./img/triangulo.png>] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] (./main.aux))
+Package luatex.def Info: img/triangulo.png  used on input line 145.
+(luatex.def)             Requested size: 126.84859pt x 73.02261pt.
+<img/1.png, id=25, 328.97906pt x 310.91156pt>
+File: img/1.png Graphic file (type png)
+<use img/1.png>
+Package luatex.def Info: img/1.png  used on input line 159.
+(luatex.def)             Requested size: 131.5893pt x 124.36241pt.
+ [4<./img/triangulo.png><./img/1.png>]
+<img/2.png, id=31, 310.15875pt x 300.3722pt>
+File: img/2.png Graphic file (type png)
+<use img/2.png>
+Package luatex.def Info: img/2.png  used on input line 166.
+(luatex.def)             Requested size: 124.0613pt x 120.14674pt.
+ [5<./img/2.png>] [6] [7]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+[18] (./main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 8726 strings out of 478287
+ 8876 strings out of 478287
  100000,1977958 words of node,token memory allocated
  533 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 12 attribute, 57 glue_spec
 , 12 attribute_list, 1 write nodes
-   avail lists: 1:1,2:900,3:264,4:108,5:305,6:56,7:8141,8:68,9:797,10:9,11:549
- 28689 multiletter control sequences out of 65536+600000
- 45 fonts using 3004775 bytes
- 108i,10n,100p,10598b,698s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:1,2:1643,3:211,4:90,5:235,6:63,7:7108,8:68,9:1166,10:42,11:475
+
+ 28820 multiletter control sequences out of 65536+600000
+ 42 fonts using 2887959 bytes
+ 108i,10n,100p,10598b,1020s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/ervin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
-an10-regular.otf><//?/c:/users/ervin/appdata/local/programs/miktex/fonts/opentyp
-e/public/lm/lmroman12-regular.otf><//?/c:/users/ervin/appdata/local/programs/mik
+an12-regular.otf><//?/c:/users/ervin/appdata/local/programs/miktex/fonts/opentyp
+e/public/lm/lmroman17-regular.otf><//?/c:/users/ervin/appdata/local/programs/mik
 tex/fonts/opentype/public/lm/lmsans10-bold.otf><C:/Users/ervin/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ervin/AppData/L
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ervin/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/ervin/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/e
-rvin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+rvin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Users/ervin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pf
 b><C:/Users/ervin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mr8.pfb><C:/Users/ervin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/ervin/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (13 pages, 247916 bytes).
+Output written on main.pdf (18 pages, 271389 bytes).
 
-PDF statistics: 103 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 122 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

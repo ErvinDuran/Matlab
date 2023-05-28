@@ -14,8 +14,28 @@ footskip=1cm,
 headsep=1cm]{geometry}
 
 %Paquetes cargados
+\usepackage[spanish]{babel}
 \usepackage{amsmath}
 \usepackage{array}
 \usepackage{xcolor}
 \usepackage{tabularray}
 \usepackage{graphicx}
+\usepackage{rotating}
+\usepackage[headsepline=true,footsepline=true]{scrlayer-scrpage}
+
+%Uso de tikz
+
+
+
+
+
+
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+\lohead{\rightmark}
+\cohead{}
+\rohead{\pagemark}
+
+\lofoot{}
+\cofoot{}
+\rofoot{Ing. Ervin Adrian Duran Aguilar}

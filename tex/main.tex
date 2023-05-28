@@ -2,7 +2,7 @@
 
 \include{style.tex}
 
-\title{Cuadernillo de Ejercicios}
+\title{Guía de Ejercicios}
 \author{Ing. Ervin Adrian Duran Aguilar}
 \date{}
 
@@ -283,9 +283,9 @@
 		
 		\begin{table}[ht]
 			\centering
-			\begin{tblr}{X[2,c]X[4,l]}
+			\begin{tblr}{|X[2,c]|X[4,l]|}
 					\hline
-					Valor de IgM y IgC & Resultado del programa \\
+					\textbf{Valor de IgM y IgC} & \textbf{Resultado del programa} \\
 					Resultado > 1.1  &  
 					\hline
 					Este es un resultado positivo. Cualquier valor por encima de este número debe interpretarse como positivo. Tenga en cuenta que valores mayores no significan mayor inmunidad ni mayor o menor tiempo de infección. Los resultados deben ser interpretados en conjunto con su médico. \\
@@ -339,10 +339,48 @@
 		
 		\item Desarrollar un algoritmo que permita leer el código de la fruta e imprimir la sub-categoría y nombre de la fruta de acuerdo a la siguiente tabla (en la tabla no figuran todas las frutas):
 		
+		\begin{table}[ht]
+			\centering
+			\begin{tblr}{|c|c|c|c|c|c|}
+				\hline
+				Categoría	& Subcategoría & No. & Nombre & No & Código \\ 
+				\hline
+				\SetCell[r=8]{c} \begin{sideways}
+				Grado Acidez
+				\end{sideways} 
+				&			
+				\SetCell[r=4]{c} Ácidas
+				&
+				\SetCell[r=4]{c} 1
+				& limon & 1 & 110 \\
+				&&& naranja & 2 & 120 \\
+				&&& piña & 3 & 130 \\
+				&&& pomelo & 4 & 140 \\
+				\hline
+				&
+				\SetCell[r=4]{c} Semi Ácidas
+				&
+				\SetCell[r=4]{c} 2
+				& ciruela & 1 & 210 \\
+				&&& frambuesa & 2 & 220 \\
+				&&& mandarina & 3 & 230 \\
+				&&& mango & 4 & 240 \\
+				\hline
+			\end{tblr}
+		\end{table}
+						
+
 		Por ejemplo, si el código de fruta ingresado es 230 entonces se debe imprimir como
-		resultado “Semiácida” y “mandarina”, esto porque:
-		230
-		Nota. El ejercicio debe ser resuelto haciendo uso del manejo de dígitos.
+		resultado \textbf{“Semiácida”} y \textbf{“mandarina”}, esto porque: \\
+		
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[scale=0.5]{img/3.png}
+		\end{figure}
+	
+		\begin{center}
+			\textbf{Nota.} El ejercicio debe ser resuelto haciendo uso del manejo de dígitos.
+		\end{center}
 		
 		\item Diseñar un programa para hallar el mayor de 2 números.
 
@@ -416,12 +454,12 @@
 		
 		\item Realice un diagrama de flujo que pida 7 números y calcula y muestra la suma de todos los primos.
 		
-		Por ejemplo. 1, 3, 4, 6, 11, 100, 9
+		Por ejemplo. 1, 3, 4, 6, 11, 100, 9 \\
 		Suma = 1 + 3 + 11 = 15
 		
 		\item Construya un diagrama de flujo que pida N números naturales y mayores a 10 y menores a 100, y calcula y muestra la suma de todos pares.
 		
-		Por ejemplo. N=5 90 20 31 45 11
+		Por ejemplo. N=5 90 20 31 45 11 \\
 		Suma=90+20 = 110
 		
 		\item Lea un lote de números hasta que se introduzca un número negativo o el cero, y muestre la cantidad y suma de números primos y no primos que contenga.
@@ -430,7 +468,7 @@
 		
 		\item Dado un numero K entero mayor a 1000 rotar sus dígitos a la derecha X veces. Mostrar cada rotación
 		
-		Ejemplo: Si K = 3456 y X= 3:
+		Ejemplo:  Si K = 3456 y X= 3: \\
 		Las rotaciones son: 6345, 5634, 4563
 		
 		\item Escribe un programa que le pida al usuario un numero entre el 1 y el 9 - pediremos al usuario dicho número hasta que cumpla la condición- una vez introducido	correctamente el programa debe escribir la tabla de multiplicar de ese número usando un bucle for, después de escribir la tabla le preguntaremos ¿quieres introducir otro número? S/N si pulsa S, volveremos a pedirle otro número si pulsa N saldrá un mensaje dándole las gracias por usar nuestro programa y finalizara la ejecución, las tablas de los números que introduzca tendrán el siguiente formato de	salida: 7X1=7 7X2=14 ............. 7X9=63
@@ -445,29 +483,33 @@
 		
 		\item Dado un numero de mínimo 5 dígitos hallar la suma de sus dígitos pares y el
 		producto de sus dígitos impares.
-		Ejemplo: 86547
-		Suma: 18
+		
+		Ejemplo: 86547 \\
+		Suma: 18\\
 		Producto: 35
+		
 		\item Escribir un programa que visualice la siguiente salida:
-		1
-		1 2
-		1 2 3
-		1 2 3 4
-		1 2 3
-		1 2
-		1
+		
+		1 \\
+		1 2\\
+		1 2 3\\
+		1 2 3 4\\
+		1 2 3\\
+		1 2\\
+		1\\
 		
 		\item Diseñar e implementar un programa que lea un total de R números y cuente el
 		número de sus entradas que son positivos negativos y cero.
 		
 		\item Diseñar e implementar un programa que solicite a su usuario un valor no negativo
 		n y visualice la siguiente salida (n = 6):
-		1 2 3 4 5 6
-		1 2 3 4 5
-		1 2 3 4
-		1 2 3
-		1 2
-		1
+		
+		1 2 3 4 5 6\\
+		1 2 3 4 5\\
+		1 2 3 4\\
+		1 2 3\\
+		1 2\\
+		1\\
 		
 		\subsection{Series}
 		

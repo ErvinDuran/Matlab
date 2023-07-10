@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (MiKTeX 23.1) (format=lualatex 2023.4.3)  23 MAY 2023 07:38
+This is LuaHBTeX, Version 1.16.0 (MiKTeX 23.1) (format=lualatex 2023.4.3)  25 JUN 2023 18:59
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -392,7 +392,17 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
+(C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen158
 \ar@mcellbox=\box55
@@ -700,7 +710,20 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 (C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
 e.sty
 Package: xparse 2023-01-16 L3 Experimental document command parser
-)) [1
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+
+
+(C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+
+
+(C:/Users/ervin/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1
 
 
 {C:/Users/ervin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
@@ -724,8 +747,7 @@ Package luatex.def Info: img/cono.png  used on input line 90.
 (luatex.def)             Requested size: 58.71982pt x 75.43239pt.
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
-
-[2<./img/cilindro.png><./img/cono.png>]
+ [2<./img/cilindro.png><./img/cono.png>]
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
  [3]
@@ -749,7 +771,8 @@ Package luatex.def Info: img/2.png  used on input line 166.
 (luatex.def)             Requested size: 124.0613pt x 120.14674pt.
 LaTeX Info: Redefining \. on input line 200.
 LaTeX Info: Redefining \% on input line 200.
- [5<./img/2.png>]
+
+[5<./img/2.png>]
 LaTeX Info: Redefining \. on input line 237.
 LaTeX Info: Redefining \% on input line 237.
  [6]
@@ -839,15 +862,15 @@ LaTeX Info: Redefining \% on input line 9.
 ))
 
 Here is how much of LuaTeX's memory you used:
- 12763 strings out of 478287
+ 13311 strings out of 478287
  125002,1977958 words of node,token memory allocated
  582 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 20 attribute, 59 glue_spec
 , 12 attribute_list, 1 write nodes
    avail lists: 1:2,2:5691,3:263,4:104,5:250,6:152,7:8107,8:68,9:2382,10:42,11:8
 88
- 32543 multiletter control sequences out of 65536+600000
- 46 fonts using 3414711 bytes
+ 33059 multiletter control sequences out of 65536+600000
+ 56 fonts using 4032919 bytes
  108i,20n,108p,10598b,1028s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/ervin/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
 an6-regular.otf><//?/c:/users/ervin/appdata/local/programs/miktex/fonts/opentype
@@ -867,7 +890,7 @@ ervin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
 Users/ervin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Users/ervin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb>
-Output written on main.pdf (19 pages, 301037 bytes).
+Output written on main.pdf (19 pages, 301040 bytes).
 
 PDF statistics: 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
